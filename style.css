@@ -1,0 +1,39 @@
+body {
+    background-color: #CEF6CE;
+}
+#form1 {
+    
+    width:180px; 
+    margin:0 auto;
+    padding: 20px 60px 20px 80px;
+    border: 0.3px solid #73AD21;
+    border-radius: 20px;
+}
+
+hr {
+    border-color: #73AD21;
+    border: 0.3px solid #73AD21;
+
+}
+
+#response1 {
+    
+    font-family: monospace;
+    padding: 20px 190px 20px 220px;
+}
+
+#year, #votec, #language {
+    font-family: monospace;
+    font-size: 120%;
+}
+
+#txt1 #txt2 #txt3{
+    font-family: monospace;
+
+}
+
+h1 {
+    font-family: 'Stencil STD';
+    font-size: 40px;
+    color: green;
+}
