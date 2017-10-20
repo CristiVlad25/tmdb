@@ -1,6 +1,8 @@
 <DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel ="stylesheet" type ="text/css" href ="style.css"/>
+
 <head>
     <script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
     crossorigin="anonymous"></script>
@@ -9,23 +11,21 @@
 
 <body>
     <div id='maincontent'></div>
-    <center><h1>The Movie Database</h1></center>
+    <h1>TMDB</h1>
     <br>
     <br>
     <br>
     <br>
-    <div id='form1'>   
+    <div class='container-fluid' id='form1'>   
         
         <br>
-        <div id='year'>Year</div>
-        <input id='txt1' type="text" placeholder='Year of release' required><br><br>
-        <div id='votec'>Vote Count</div>
-        <input id='txt2' type="text" placeholder='How many votes' required><br><br>
-        <div id='language'>Language</div>
-        <input id='txt3' type="text" placeholder='Original language' required><br>
+        <div id='keywd'>Search by keyword:</div>
+        <input class='form-control' id='txt1' type="text" placeholder='Keyword'><br><br>
+        <div id='year'>Search by year:</div>
+        <input class='form-control' id='txt2' type="text" placeholder='Year of release'><br><br>
         <br>
-        <button id='myclick'>Submit</button>
-        
+        <button class='btn btn-default' id='myclick'>Submit</button>
+        <button class='btn btn-default glyphicon glyphicon-refresh' id='refr'></button>
         <script src='script.js'></script>
     </div>
     <hr>

@@ -1,13 +1,16 @@
 body {
     background-color: #CEF6CE;
 }
+
 #form1 {
     
-    width:180px; 
-    margin:0 auto;
-    padding: 20px 60px 20px 80px;
-    border: 0.3px solid #73AD21;
+    width:400px; 
+    margin:50px auto;
+    padding: 20px 60px 20px 60px;
     border-radius: 20px;
+    background-color: #BDBDBD;
+    box-shadow: 5px 5px 5px #888888;
+
 }
 
 hr {
@@ -20,14 +23,23 @@ hr {
     
     font-family: monospace;
     padding: 20px 190px 20px 220px;
+
 }
 
-#year, #votec, #language {
+.response2 {
+    padding: 0px 20px 0px 20px;
+    background-color: #DADADA; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+#year, #keywd {
     font-family: monospace;
     font-size: 120%;
+    font-weight: bold;
 }
 
-#txt1 #txt2 #txt3{
+#txt1 #txt2 {
     font-family: monospace;
 
 }
@@ -36,4 +48,23 @@ h1 {
     font-family: 'Stencil STD';
     font-size: 40px;
     color: green;
+    float: right;
+    padding: 20px 60px 20px 60px;
+}
+
+#refr {
+    float: right;
+}
+
+#descr {
+   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#titl {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
 }
